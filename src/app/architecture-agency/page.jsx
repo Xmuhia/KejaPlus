@@ -34,25 +34,31 @@ const funfaceData = [
 ];
 const portfolioData = [
   {
-    title: 'Colorful Art Work',
+    title: 'Single Family',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
     src: '/images/portfolio_45.jpeg',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'Small Multifamily',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
     src: '/images/portfolio_46.jpeg',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'Community Association',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
     src: '/images/portfolio_1.jpeg',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'Student Housing',
+    subtitle: 'See Details',
+    href: '/portfolio/portfolio-details',
+    src: '/images/portfolio_47.jpeg',
+  },
+  {
+    title: 'Commercial',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
     src: '/images/portfolio_47.jpeg',

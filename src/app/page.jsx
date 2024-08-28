@@ -48,28 +48,46 @@ const funfaceData = [
 // Portfolio Data
 const portfolioData = [
   {
-    title: 'Colorful Art Work',
+    title: 'Single Family',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_1.jpeg',
+    src: '/images/Single.png',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'Small Multifamily',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_2.jpeg',
+    src: '/images/Multi.png',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'Community Housing',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_0.jpg',
+    src: '/images/Community.png',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'Student Housing',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_3.jpeg',
+    src: '/images/Student.png',
+  },
+  {
+    title: 'Commercial Offices',
+    subtitle: 'See Details',
+    href: '/portfolio/portfolio-details',
+    src: '/images/Offices.png',
+  },
+  {
+    title: 'Luxury Apartments',
+    subtitle: 'See Details',
+    href: '/portfolio/portfolio-details',
+    src: '/images/Luxury.png',
+  },
+  {
+    title: 'Malls & Stores',
+    subtitle: 'See Details',
+    href: '/portfolio/portfolio-details',
+    src: '/images/Malls.png',
   },
 ];
 
