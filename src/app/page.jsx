@@ -41,8 +41,8 @@ const funfaceData = [
     factNumber: '20',
   },
   {
-    title: 'Happy Property Owners',
-    factNumber: '100+',
+    title: 'Tenants Engaged',
+    factNumber: '10K',
   },
 ];
 // Portfolio Data
@@ -97,7 +97,7 @@ export default function Home() {
       {/* Start Hero Section */}
       <Hero
         title="Streamline, Automate, Grow: <br/>From Lease to Keys"
-        subtitle="Simplifying Kenya's Rental Experience: One Property at a Time."
+        subtitle="Efficient, Transparent, and User-Friendly Solutions for Landlords, Tenants, and Property Owners."
         btnText="Get a Quotation"
         btnLink="/contact"
         scrollDownId="#service"
@@ -125,8 +125,8 @@ export default function Home() {
           <Div className="row">
             <Div className="col-xl-4">
               <SectionHeading
-                title="Services we can help you with"
-                subtitle="What Can We Do"
+                title="Comprehensive Property Management Solutions"
+                subtitle="Explore Our Key Features"
                 btnText="See All Services"
                 btnLink="/service"
               />
@@ -139,7 +139,7 @@ export default function Home() {
                   <Card
                     title="Smart Invoicing"
                     link="/service/service-details"
-                    src="/images/service_1.jpeg"
+                    srFc="/images/service_1.jpeg"
                     alt="Service"
                   />
                   <Spacing lg="0" md="30" />
@@ -224,8 +224,7 @@ export default function Home() {
       <Spacing lg="130" md="70" />
       <Div className="container">
         <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
-          Our agile process is ability to adapt and respond to change. Agile
-          organizations view change as an opportunity, not a threat.
+        We understand—property management never hits pause, and neither do we.
         </h2>
         <Spacing lg="70" md="70" />
         <VideoModal
@@ -239,8 +238,8 @@ export default function Home() {
       <Spacing lg="145" md="80" />
       <Div className="container">
         <SectionHeading
-          title="Awesome team <br/>members"
-          subtitle="Our Team"
+           title="Meet the Visionaries Behind </br>Keja Plus"
+          subtitle="Our Expert Team"
           variant="cs-style1"
         />
         <Spacing lg="85" md="45" />
@@ -295,8 +294,8 @@ export default function Home() {
       {/* Start CTA Section */}
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
-          btnText="Apply For Meeting"
+          title="Ready to revolutionize <br />your property <i>cool</i> management?"
+          btnText="Start Your Free Trial"
           btnLink="/contact"
           bgSrc="/images/cta_bg.jpeg"
         />

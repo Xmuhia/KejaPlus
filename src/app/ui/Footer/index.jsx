@@ -9,30 +9,30 @@ import TextWidget from '../Widget/TextWidget';
 const copyrightLinks = [
   {
     title: 'Terms of Use',
-    href: '/',
+    href: '/terms',
   },
   {
     title: 'Privacy Policy',
-    href: '/',
+    href: '/privacy',
   },
 ];
 
 const serviceMenu = [
   {
-    title: 'UI/UX design',
-    href: '/service/service-details',
+    title: 'Smart Invoicing',
+    href: '/service/smart-invoicing',
   },
   {
-    title: 'WP development',
-    href: '/service/service-details',
+    title: 'Financial Dashboard',
+    href: '/service/financial-dashboard',
   },
   {
-    title: 'Digital marketing',
-    href: '/service/service-details',
+    title: 'Maintenance Tracking',
+    href: '/service/maintenance-tracking',
   },
   {
-    title: 'React development',
-    href: '/service/service-details',
+    title: 'Utility Management',
+    href: '/service/utility-management',
   },
 ];
 
@@ -40,36 +40,41 @@ const date = new Date().getFullYear();
 
 export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
   return (
-    <footer className="cs-fooer">
-      <Div className="cs-fooer_main">
+    <footer className="cs-footer">
+      <Div className="cs-footer_main">
         <Div className="container">
           <Div className="row">
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
                 <TextWidget
                   logoSrc="/images/footer_logo.svg"
-                  logoAlt="Logo"
-                  text="Welcome to arino sed ut perspiciae omunde omnis iste natus error sitort voluptatem accusantium."
+                  logoAlt="Keja Plus Logo"
+                  text="Keja Plus is revolutionizing property management in Kenya, offering efficient and transparent solutions for landlords, tenants, and property owners."
                 />
                 <SocialWidget />
               </Div>
             </Div>
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
-                <MenuWidget menuItems={serviceMenu} menuHeading="Services" />
+                <MenuWidget menuItems={serviceMenu} menuHeading="Our Services" />
               </Div>
             </Div>
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
-                <ContactInfoWidget title="Contact Us" />
+                <ContactInfoWidget 
+                  title="Get in Touch"
+                  address="Keja Plus HQ, Nairobi, Kenya"
+                  phone="+254 700 000 000"
+                  email="support@kejaPlus.com"
+                />
               </Div>
             </Div>
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
                 <Newsletter
-                  title="Subscribe"
-                  subtitle="At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit."
-                  placeholder="example@gmail.com"
+                  title="Stay Updated"
+                  subtitle="Subscribe to get the latest tips, trends, and news in property management."
+                  placeholder="Enter your email"
                 />
               </Div>
             </Div>
@@ -80,7 +85,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
         <Div className="cs-bottom_footer">
           <Div className="cs-bottom_footer_left">
             <Div className="cs-copyright">
-              Copyright © {`${date}`} Laralink.
+              Copyright © {`${date}`} Andromeda Labs. All rights reserved.
             </Div>
           </Div>
           <Div className="cs-bottom_footer_right">
