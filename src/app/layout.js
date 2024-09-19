@@ -19,7 +19,7 @@ const openSans = Open_Sans({
 });
 
 export const metadata = {
-  title: 'Keja Plus - Revolutionizing Property Management in Kenya',
+  title: 'Keja Plus - Kenya\'s Best Property Management Software',
   description: 'Keja Plus is the leading proptech platform in East Africa, offering innovative solutions for property management, rental experiences, and real estate ecosystem in Kenya.',
   keywords: 'property management, real estate software, Kenya, proptech, rental management, Mpesa integration, student housing',
   openGraph: {
